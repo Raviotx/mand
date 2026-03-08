@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+canvas {
+    width: 95vw;      /* ocupa quase toda a largura da tela do celular */
+    height: auto;      /* mantém proporção */
+    max-width: 800px;
+    max-height: 600px;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #000;
+}
+
+.hidden {
+    display: none;
+}
